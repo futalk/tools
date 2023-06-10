@@ -225,10 +225,10 @@ function showlist() {
                     var r_list = filtered_list.slice(l_length,filtered_list_length)
                     // console.log(l_list,r_list)
 
-                    l_list.forEach((item)=>{l_htmlStr += '<li class="list_con_li"><h2 class="list_news_tit"><a href="https://mrwq.github.io/vulnerability-paper'+ change_name(item) +'" target="_blank">'+ item +'</a></h2></li>'})
+                    l_list.forEach((item)=>{l_htmlStr += '<li class="list_con_li"><h2 class="list_news_tit"><a href=".vulnerability-paper'+ change_name(item) +'" target="_blank">'+ item +'</a></h2></li>'})
                     $("#main_l").html(l_htmlStr);
 
-                    r_list.forEach((item)=>{r_htmlStr += '<li class="list_con_li"><h2 class="list_news_tit"><a href="https://mrwq.github.io/vulnerability-paper'+ change_name(item) +'" target="_blank">'+ item +'</a></h2></li>'})
+                    r_list.forEach((item)=>{r_htmlStr += '<li class="list_con_li"><h2 class="list_news_tit"><a href=".vulnerability-paper'+ change_name(item) +'" target="_blank">'+ item +'</a></h2></li>'})
                     $("#main_r").html(r_htmlStr);
 
                     // 展示搜索结果
